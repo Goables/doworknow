@@ -14,11 +14,11 @@ async function pointsCounter() {
 
     while(true){
     await sleep(1000);
-    if (counter === 60) {
+    if (counter === 59) {
         counter = 0;
         element.innerHTML = '0';
         mCounter++;
-        if (mCounter === 60) {
+        if (mCounter === 59) {
             mCounter = 0;
             mElement.innerHTML = '0';
             hCounter++;
