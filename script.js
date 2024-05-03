@@ -18,14 +18,18 @@ async function pointsCounter() {
         counter = -1;
         element.innerHTML = '0';
         mCounter++;
+        if (mCounter % 15 === 0) {
+            window.alert(`Ready to do your work?`);
+            window.open(`https://classroom.google.com`);
+        }
         if (mCounter === 60) {
             mCounter = 0;
             mElement.innerHTML = '0';
             hCounter++;
-            if (hCounter >= 1) {
-                window.alert(`Ready to do your work?`);
-                window.open(`https://classroom.google.com`);
-            }
+            // if (hCounter >= 1) {
+            //     window.alert(`Ready to do your work?`);
+            //     window.open(`https://classroom.google.com`);
+            // }
         }
     }
     counter++;
