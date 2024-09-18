@@ -41,3 +41,4 @@ async function pointsCounter() {
 }
 
 // WE'RE BORROWING IT MR FAST PLS DONT REMOVE MY PORFOESOINAL POIONRTS 🙏
+// https://github.com/Goables/doworknow
